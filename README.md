@@ -1,14 +1,13 @@
 # Node Folder Structure
-Simple folder structure for quick starting node.js REST API applications that uses Express.js.
+Folder and file structure for quick starting node.js REST API applications. The structure might be updated in the future.
 
 version: 1.0.0
 
 ## Step by step
 
-1- run create-node-project.sh
+1- run create-node-project.py in the directory you want to create your project and pass the project name as argument.
 ```
-chmod +x create-node-project.sh
-./create-node-project.sh my-project-name
+python3 create-node-project.py my-project-name
 ```
 If it does not work, try run it with `sudo`
 
@@ -34,9 +33,15 @@ If it does not work, try run it with `sudo`
 
 &nbsp;&nbsp;&nbsp;&nbsp;↳ 📁 config `environment variables and other configuration files`
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ 📄 routes.js `configuration of the routes of your application`
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ 📄 environment.js `importing environment variables to the project`
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ 📄 dbConnection.js `database connection configuration`
+
 &nbsp;&nbsp;&nbsp;&nbsp;↳ 📁 database
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ 📄 connection.js `database connection configuration`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ 📄 connection.js `database connection`
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ 📁 models `database models`
 
