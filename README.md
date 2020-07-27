@@ -5,9 +5,9 @@ version: 1.0.0
 
 ## Step by step
 
-1- run create-node-project.py in the directory you want to create your project and pass the project name as argument.
+1- run create-node-folder-structure.py in the directory you want to create your project and pass the project name as argument.
 ```
-python3 create-node-project.py my-project-name
+python3 create-node-folder-structure.py my-project-name
 ```
 If it does not work, try run it with `sudo`
 
